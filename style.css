@@ -1,1 +1,36 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr;
 
+  border-bottom: 10px solid black;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.container {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.about-me {
+  border: 2px dashed black;
+  flex: 1;
+}
+
+.showcase {
+  border: 2px dashed black;
+  flex: 2;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
