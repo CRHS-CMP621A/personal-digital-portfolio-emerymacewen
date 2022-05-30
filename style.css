@@ -84,10 +84,6 @@ body {
 }
 
 .col-1 {
-  /*flex-wrap: wrap;
-  grid-column: 2;
-  grid-template-rows: 1fr;*/
-
   border-style: solid;
   border-color: black;
   background: turquoise;
@@ -95,23 +91,21 @@ body {
   margin-top: 10px;
   padding-left: 5px;
   height: 650px;
-  overflow: scroll;
 }
 
 .image {
-  margin-left: 42.5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 10px ridge;
+  border: 10px ridge burlywood;
+  margin-top: 16px;
+  margin-left: 48px;
+  margin-right: 48.5px;
 }
 
-.links {
+.socials {
   border-color: black;
   border-style: solid;
   background-color: yellow;
   align-self: stretch;
   margin-top: 10px;
-  /*margin-bottom: 1100px;*/
   margin-right: 10px;
   padding-left: 5px;
 }
@@ -125,8 +119,11 @@ body {
 }
 
 .image2 {
-  margin-left: 65px;
-  margin-top: 40px;
-  padding: 10px;
-  border: 10px ridge;
+  border: 10px ridge burlywood;
+}
+
+.image3 {
+  border: 10px ridge burlywood;
+  margin-top: 90px;
+  margin-right: 6px;
 }
