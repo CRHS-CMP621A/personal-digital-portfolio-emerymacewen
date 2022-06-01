@@ -3,7 +3,7 @@ ul.list1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: goldenrod;
+  background-color: darkred;
   border-style: groove;
   border-color: black;
 }
@@ -56,7 +56,7 @@ li.dropdown {
 }
 
 .title {
-  background: wheat;
+  background: firebrick;
   font-size: 60px;
   margin-top: 10px;
   text-align: center;
@@ -65,7 +65,7 @@ li.dropdown {
 }
 
 .footer {
-  background: red;
+  background: darkred;
   font-size: 20px;
   margin-top: 10px;
   border-style: groove;
@@ -80,17 +80,18 @@ li.dropdown {
 }
 
 body {
-  background: yellowgreen;
+  background: gainsboro;
 }
 
 .col-1 {
   border-style: solid;
   border-color: black;
-  background: turquoise;
+  background: firebrick;
   margin-right: 10px;
   margin-top: 10px;
   padding-left: 5px;
   height: 650px;
+  text-align: center;
 }
 
 .image {
@@ -103,7 +104,7 @@ body {
 .socials {
   border-color: black;
   border-style: solid;
-  background-color: yellow;
+  background-color: firebrick;
   align-self: stretch;
   margin-top: 10px;
   margin-right: 10px;
@@ -113,9 +114,10 @@ body {
 .right {
   border-style: solid;
   border-color: black;
-  background: pink;
+  background: firebrick;
   margin-top: 10px;
   padding-left: 5px;
+  text-align: center;
 }
 
 .image2 {
