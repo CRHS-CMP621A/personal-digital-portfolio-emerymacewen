@@ -15,7 +15,7 @@ li.list2 {
 li.list2 a,
 .dropbtn {
   display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,7 +23,7 @@ li.list2 a,
 
 li.list2 a:hover,
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: gainsboro;
 }
 
 li.dropdown {
@@ -33,7 +33,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: darkred;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -48,7 +48,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: gainsboro;
 }
 
 .dropdown:hover .dropdown-content {
@@ -56,7 +56,7 @@ li.dropdown {
 }
 
 .title {
-  background: firebrick;
+  background: darkred;
   font-size: 60px;
   margin-top: 10px;
   text-align: center;
@@ -86,7 +86,7 @@ body {
 .col-1 {
   border-style: solid;
   border-color: black;
-  background: firebrick;
+  background: darkred;
   margin-right: 10px;
   margin-top: 10px;
   padding-left: 5px;
@@ -96,36 +96,49 @@ body {
 
 .image {
   border: 10px ridge burlywood;
-  margin-top: 16px;
-  margin-left: 48px;
+  margin-left: 76px;
   margin-right: 48.5px;
+  background-color: burlywood;
 }
 
 .socials {
   border-color: black;
   border-style: solid;
-  background-color: firebrick;
+  background-color: darkred;
   align-self: stretch;
   margin-top: 10px;
   margin-right: 10px;
-  padding-left: 5px;
+  padding-left: 2px;
+  list-style: inside;
+}
+
+.socials a {
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.socials a:hover {
+  background-color: gainsboro;
 }
 
 .right {
   border-style: solid;
   border-color: black;
-  background: firebrick;
+  background: darkred;
   margin-top: 10px;
-  padding-left: 5px;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
   text-align: center;
 }
 
 .image2 {
   border: 10px ridge burlywood;
+  background-color: burlywood;
 }
 
 .image3 {
   border: 10px ridge burlywood;
   margin-top: 90px;
   margin-right: 6px;
+  background-color: burlywood;
 }
