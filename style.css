@@ -66,6 +66,7 @@ a:visited {
 .title {
   background: darkred;
   font-size: 60px;
+  font-weight: bold;
   margin-top: 10px;
   text-align: center;
   border-style: groove;
@@ -74,7 +75,7 @@ a:visited {
 
 .footer {
   background: darkred;
-  font-size: 20px;
+  font-size: 39px;
   margin-top: 10px;
   border-style: groove;
   border-color: black;
@@ -100,6 +101,7 @@ body {
   padding-left: 5px;
   height: 650px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .image {
@@ -119,6 +121,7 @@ body {
   padding-left: 2px;
   list-style: inside;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .socials a {
@@ -138,6 +141,7 @@ body {
   padding-right: 2.5px;
   padding-left: 2.5px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .image2 {
