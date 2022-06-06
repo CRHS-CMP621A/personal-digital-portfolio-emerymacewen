@@ -1,0 +1,161 @@
+ul.list1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkred;
+  border-style: groove;
+  border-color: black;
+}
+
+li.list2 {
+  float: left;
+}
+
+li.list2 a,
+.dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.list2 a:hover,
+.dropdown:hover .dropbtn {
+  background-color: gainsboro;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkred;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: gainsboro;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li.list2 a:link,
+a:visited {
+  color: black;
+}
+
+.footer a:hover {
+  background-color: gainsboro;
+}
+.title {
+  background: darkred;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  border-style: groove;
+  border-color: black;
+}
+
+.footer {
+  background: darkred;
+  font-size: 39px;
+  margin-top: 10px;
+  border-style: groove;
+  border-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  margin-bottom: 10px;
+}
+
+body {
+  background: gainsboro;
+}
+
+.col-1 {
+  border-style: solid;
+  border-color: black;
+  background: darkred;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 5px;
+  height: 650px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.image {
+  border: 10px ridge burlywood;
+  margin-left: 76px;
+  margin-right: 48.5px;
+  background-color: burlywood;
+}
+
+.socials {
+  border-color: black;
+  border-style: solid;
+  background-color: darkred;
+  align-self: stretch;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left: 2px;
+  list-style: inside;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.socials a {
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.socials a:hover {
+  background-color: gainsboro;
+}
+
+.right {
+  border-style: solid;
+  border-color: black;
+  background: darkred;
+  margin-top: 10px;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.image2 {
+  border: 10px ridge burlywood;
+  background-color: burlywood;
+}
+
+.image3 {
+  border: 10px ridge burlywood;
+  margin-top: 90px;
+  margin-right: 6px;
+  background-color: burlywood;
+}
+
+.links {
+  text-align: start;
+}
